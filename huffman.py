@@ -62,4 +62,4 @@ for i in range(1, len(p_)+1):
                     Q.append('')
         r = r - 1
     Q_.append(''.join(Q))
-print(Q_)
+print("Minimum variance Huffman code : ", Q_)
