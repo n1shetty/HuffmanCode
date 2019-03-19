@@ -1,8 +1,4 @@
-"""
-Created on Sat Mar 16 20:44:21 2019
-@author: Nishanth Shetty
-"""
-p = [0.4, 0.2, 0.2, 0.1, 0.1]
+p = [float(x) for x in input("Enter the probabilites : ").split()]
 p_ = p
 p.sort(reverse = True)
 end_ = len(p) - 1
